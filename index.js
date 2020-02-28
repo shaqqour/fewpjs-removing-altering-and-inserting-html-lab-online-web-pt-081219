@@ -1,5 +1,6 @@
 // Write your code here!
 document.querySelector('main#main').remove();
-let newHeader = document.createElement('div');
-newHeader.innerHTML = "<h1 id='victory'>Shaqqour</h1>"
+let newHeader = document.createElement("h1");
+newHeader.id = "victory";
+newHeader.innerHTML = "Shaqqour";
 document.body.appendChild(newHeader);
